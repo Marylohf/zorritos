@@ -1,0 +1,6 @@
+.cont-zorritos {
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
