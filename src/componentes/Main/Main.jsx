@@ -1,6 +1,7 @@
 import React from 'react'
 import Dni from '../Dni/Dni';
 import Tarjeta from '../Tarjeta/Tarjeta';
+import Tarjeta2 from '../Tarjeta2/Tarjeta2';
 import './Main.css'
 
 const Main = () => {
@@ -24,6 +25,7 @@ const Main = () => {
         <div className='cont-zorritos'>
           {handlePrint()}
         </div>
+        <Tarjeta2 />
 
     </div>
   )

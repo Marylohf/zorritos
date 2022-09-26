@@ -1,0 +1,113 @@
+.cont-tarjeta-2 {
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid purple;
+    border-radius: 20px;
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbafe3;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.glitch{
+    font-size: 63px;
+    padding: 20px;
+    color: #7d199e;
+    animation: glitch 1293ms infinite;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, .75), -0.025em -.05em 0 rgba(0, 255, 0, .75), 0.025em .05em 0 rgba(0, 0, 255, .75);
+    }
+    .glitch2Bedore{
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5rem;
+    color: white;
+    } @keyframes glitch{
+    0%{
+    text-shadow:
+    0.05em 0 0 rgba(255, 0, 0, .75),
+    -0.025em -.05em 0 rgba(0, 255, 0, .75),
+    0.025em .05em 0 rgba(0, 0, 255, .75);
+    }
+    14%{
+    text-shadow:
+    0.05em 0 0 rgba(255, 0, 0, .75),
+    -0.025em -.05em 0 rgba(0, 255, 0, .75),
+    0.025em .05em 0 rgba(0, 0, 255, .75);
+    }
+    15%{
+    text-shadow:
+    -0.05em -.025em 0 rgba(255, 0, 0, .75),
+    0.025em 0.025em 0 rgba(0, 255, 0, .75),
+    -0.05em -.05em 0 rgba(0, 0, 255, .75);
+    }
+    49%{
+    text-shadow:
+    -0.05em -.025em 0 rgba(255, 0, 0, .75),
+    0.025em 0.025em 0 rgba(0, 255, 0, .75),
+    -0.05em -.05em 0 rgba(0, 0, 255, .75);
+    }
+    50%{
+    text-shadow:
+    0.025em 0.05em 0 rgba(255, 0, 0, .75),
+    0.05em 0 0 rgba(0, 255, 0, .75),
+    0 -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    99%{
+    text-shadow:
+    0.025em 0.05em 0 rgba(255, 0, 0, .75),
+    0.05em 0 0 rgba(0, 255, 0, .75),
+    0 -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    100%{
+    text-shadow:
+    -0.025em 0 0 rgba(255, 0, 0, .75),
+    -0.025em -0.025em 0 rgba(0, 255, 0, .75),
+    -0.025em -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    }
+    .containerGlitch{
+    width: 100%;
+    max-width: 1175px;
+    height: auto;
+    }
+
+    .myButton {
+        box-shadow: 3px 4px 0px 0px #fbafe3;
+        background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+        background-color:#ff5bb0;
+        border-radius:18px;
+        border:1px solid #ee1eb5;
+        width: auto;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:19px;
+        font-weight:bold;
+        padding: 10px;
+        text-shadow:3px 3px 2px #c70067;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+        background-color:#ef027d;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
